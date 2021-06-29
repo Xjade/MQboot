@@ -98,6 +98,14 @@
             <artifactId>ganymed-ssh2</artifactId>
             <version>build210</version>
         </dependency>
+
+        <!--注意： 这里的版本,要和部署在服务器上的版本号一致-->
+        <!--    rocket mq    -->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>4.3.0</version>
+        </dependency>
     </dependencies>
 
     <build>
