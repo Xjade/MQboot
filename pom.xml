@@ -99,12 +99,20 @@
             <version>build210</version>
         </dependency>
 
-        <!--注意： 这里的版本,要和部署在服务器上的版本号一致-->
-        <!--    rocket mq    -->
+        <!--        rocket mq-->
         <dependency>
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-client</artifactId>
-            <version>4.3.0</version>
+            <version>4.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-common</artifactId>
+            <version>4.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
         </dependency>
     </dependencies>
 
